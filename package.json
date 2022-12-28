@@ -1,0 +1,33 @@
+{
+  "name": "testproject_001",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc-watch -p tsconfig.build.json --onSuccess \"node ./dist/main.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WildOrc/TestProject_001.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WildOrc/TestProject_001/issues"
+  },
+  "homepage": "https://github.com/WildOrc/TestProject_001#readme",
+  "dependencies": {
+    "@types/express": "^4.17.15",
+    "dotenv": "^16.0.3",
+    "envalid": "^7.3.1",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.8.1",
+    "ts-node": "^10.9.1",
+    "tsc-watch": "^6.0.0",
+    "typescript": "^4.9.4"
+  }
+}
