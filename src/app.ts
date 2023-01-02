@@ -82,7 +82,7 @@ export class App {
         if (request.headers.authorization) {
           const token = request.headers.authorization.substring(
             'Bearer '.length,
-          );
+          ).trim();
 
           try {
             const userWithAccess = await authService.validationAccessToken(token);
